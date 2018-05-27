@@ -1,0 +1,22 @@
+{
+  "name": "studymap",
+  "version": "0.0.1",
+  "description": "A tool for finding a place to study within your community",
+  "main": "app/index.js",
+  "repository": "https://ivanvillacreative@github.com/ivanvillacreative/studymap.git",
+  "author": "Ivan Villa <ivan@wearescribe.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel app/index.html --out-dir local",
+    "build": "parcel app/index.html --out-dir public",
+    "clean": "rm -r local && rm -r .cache"
+  },
+  "dependencies": {
+    "@firebase/app": "^0.3.3",
+    "@firebase/firestore": "^0.5.4",
+    "babel-env": "^2.4.1",
+    "parcel-bundler": "^1.8.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
